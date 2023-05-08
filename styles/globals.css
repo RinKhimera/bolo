@@ -2,69 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .LaCarteTourne {
-    
-    position: relative;
-    width: 300px;
-    height: 300px;
+  position: relative;
+  width: 300px;
+  height: 300px;
 }
 
 .LaCarteTourne__inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
 }
 
 .LaCarteTourne--flipped .LaCarteTourne__inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .LaCarteTourne__front,
 .LaCarteTourne__back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
 .LaCarteTourne__front {
-    z-index: 2;
+  z-index: 2;
 }
 
 .LaCarteTourne__back {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .LaCarteTourne__front:hover {
-    cursor: pointer;
-    background-color: #badb27;
-    color: #4b5563;
+  cursor: pointer;
+  background-color: #badb27;
+  color: #4b5563;
 }
 
 .LaCarteTourne__back:hover {
-    cursor: pointer;
-    background-color: #3a24aa;
-    color: #4b5563;
+  cursor: pointer;
+  background-color: #3a24aa;
+  color: #4b5563;
 }
 
 .LaCarteTourne__front p,
 .LaCarteTourne__back p {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: #992287;
-    text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #992287;
+  text-align: center;
 }
 
 @media (max-width: 640px) {
-    .LaCarteTourne {
-        width: 100%;
-        height: auto;
-    }
+  .LaCarteTourne {
+    width: 100%;
+    height: auto;
+  }
 }
