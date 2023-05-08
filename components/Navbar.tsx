@@ -20,7 +20,7 @@ const NewNavBar = () => {
     {
       name: "Find Companies",
       description: "Measure actions your users take",
-      href: "/findCompanies",
+      href: "/findCompany",
       icon: <FcDepartment className="text-3xl" />,
     },
     {
