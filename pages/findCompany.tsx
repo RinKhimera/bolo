@@ -3,6 +3,13 @@ import HeroFindCompagnie from "@/components/HeroFindCompagnie"
 import NavBar from "@/components/Navbar"
 import Image from "next/image"
 import eneo from "/public/assets/eneo.png"
+import azur from "/public/assets/azur.png"
+import alucam from "/public/assets/alucam.png"
+import chococam from "/public/assets/chococam.png"
+import ucb from "/public/assets/ucb.jpg"
+import atlantique from "/public/assets/atlantique.png"
+import beac from "/public/assets/beac.png"
+import falaise from "/public/assets/falaise.png"
 
 const FindCompagnie = () => {
   return (
@@ -55,7 +62,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={azur} alt="eneo" width={45} />
                     </div>
                     <div>
                       <a
@@ -67,7 +74,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    Azur
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -85,7 +92,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={chococam} alt="eneo" width={75} />
                     </div>
                     <div>
                       <a
@@ -97,7 +104,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    Chococam
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -115,7 +122,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={alucam} alt="eneo" width={75} />
                     </div>
                     <div>
                       <a
@@ -127,7 +134,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    Alucam
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -145,7 +152,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={ucb} alt="eneo" width={45} />
                     </div>
                     <div>
                       <a
@@ -157,7 +164,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    UCB Cameroun
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -175,7 +182,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={falaise} alt="eneo" width={45} />
                     </div>
                     <div>
                       <a
@@ -187,7 +194,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    Hôtel la falaise
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -205,7 +212,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={beac} alt="eneo" width={45} />
                     </div>
                     <div>
                       <a
@@ -217,7 +224,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    beac
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
@@ -235,7 +242,7 @@ const FindCompagnie = () => {
                 <div className="flex-wrap text-left">
                   <div className="flex grid-cols-2 justify-between gap-8">
                     <div>
-                      <Image src={eneo} alt="eneo" width={45} />
+                      <Image src={atlantique} alt="eneo" width={75} />
                     </div>
                     <div>
                       <a
@@ -247,7 +254,7 @@ const FindCompagnie = () => {
                     </div>
                   </div>
                   <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                    Eneo
+                    atlantique assurance
                   </h4>
                 </div>
                 <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
