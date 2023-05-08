@@ -1,6 +1,15 @@
 import Head from "next/head"
 import * as React from "react"
-import { FcCustomerSupport } from "react-icons/fc"
+import {
+  FcAdvertising,
+  FcBriefcase,
+  FcConferenceCall,
+  FcCustomerSupport,
+  FcDepartment,
+  FcDoughnutChart,
+  FcFolder,
+  FcTemplate,
+} from "react-icons/fc"
 import {
   HiArrowDownTray,
   HiBriefcase,
@@ -28,9 +37,9 @@ export default function HomePage() {
       <main className="bg-slate-50">
         <div>
           <div className="text-center">
-            <h3 className="py-12 text-4xl font-bold tracking-tight text-slate-700 sm:text-5xl lg:text-6xl">
+            <h3 className="py-12 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl lg:text-6xl">
               One Platform <br />
-              Many <span className="text-blue-500">Solutions</span>
+              Many <span className="text-blue-400"> Solutions </span>
             </h3>
           </div>
           <div className="py-16">
@@ -38,79 +47,79 @@ export default function HomePage() {
               <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4 xl:gap-6">
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiMegaphone className="text-6xl text-blue-500 group-hover:text-red-500" />
+                    <FcAdvertising className="text-6xl text-blue-500 group-hover:text-red-500" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Marketing & Communication
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer  flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 text-left shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap">
-                    <HiBriefcase className="text-6xl text-blue-500 group-hover:text-white" />
+                    <FcBriefcase className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Buisiness & Consulting
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiCommandLine className="text-6xl text-blue-500 group-hover:text-green-500" />
+                    <FcTemplate className="text-6xl text-blue-500 group-hover:text-green-500" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Design & Development
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiUserGroup className="text-6xl text-blue-500 group-hover:text-white" />
+                    <FcConferenceCall className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Human Research & Development
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiChartPie className="text-6xl text-blue-500 group-hover:text-white" />
+                    <FcDoughnutChart className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Finance Management
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiNewspaper className="text-6xl text-blue-500 group-hover:text-white" />
+                    <FcDepartment className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Government Jobs
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
@@ -123,20 +132,20 @@ export default function HomePage() {
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
 
                 <div className="group flex cursor-pointer flex-col rounded-xl border border-gray-500/10 bg-white px-5 py-8 shadow-lg shadow-slate-300 duration-200 hover:bg-blue-500">
                   <div className="flex-wrap text-left">
-                    <HiFolder className="text-6xl text-blue-500 group-hover:text-white" />
+                    <FcFolder className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
                       Project Management
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
                     237 Jobs Available{" "}
-                    <HiOutlineArrowLongRight className="text-2xl" />
+                    <HiOutlineArrowLongRight className="animate-bounce text-2xl text-rose-500" />
                   </p>
                 </div>
               </div>
@@ -280,40 +289,44 @@ export default function HomePage() {
             </div>
             <div className="mt-8 items-center justify-center">
               <button className="flex items-center justify-center gap-4 rounded-[85px] border-2 px-9 py-2 text-center text-lg font-semibold capitalize text-blue-500  hover:bg-blue-900">
-                Find more job <HiOutlineArrowLongRight className="text-2xl" />
+                Fin
               </button>
             </div>
           </div>
+          s
         </div>
         <div className="py-10">
-          <div className="mx-auto max-w-7xl rounded-[25px] bg-blue-500 px-8 md:px-6">
-            <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:gap-10">
-              <div className="h-full w-full">
-                <img
-                  src="/assets/person-12.png"
-                  alt="upload"
-                  className="py-10"
-                />
-              </div>
-              <div className="items-center justify-center text-left">
-                <h1 className="items-center justify-center text-left text-5xl font-semibold text-white sm:mt-[50px] md:mt-[100px]">
-                  Get Matched The Most Valuable Jobs, Just Drop Your CV at
-                  Staffing Solutions
-                </h1>
-                <p className="mt-5 text-justify text-sm text-white">
-                  In the subject line of email, write your name, the description
-                  of the position you want to apply
-                </p>
-                <button className="mt-3 flex flex-row items-center justify-center gap-2 rounded-lg bg-white px-2 py-2 text-center text-blue-500 sm:mb-9">
-                  {" "}
-                  <HiArrowDownTray /> Upload Your CV{" "}
-                </button>
+          <div className="m-8 pb-10">
+            <div className="mx-auto max-w-7xl rounded-[25px] bg-blue-500 px-8 md:px-6">
+              <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:gap-10">
+                <div className="h-full w-full">
+                  <img
+                    src="/assets/person-12.png"
+                    alt="upload"
+                    className="py-10"
+                  />
+                </div>
+                <div className="items-center justify-center text-left">
+                  <h1 className="items-center justify-center text-left text-5xl font-semibold text-white sm:mt-[50px] md:mt-[100px]">
+                    Get Matched The Most Valuable Jobs, Just Drop Your CV at
+                    Staffing Solutions
+                  </h1>
+                  <p className="mt-5 text-justify text-sm text-white">
+                    In the subject line of email, write your name, the
+                    description of the position you want to apply
+                  </p>
+                  <button className="mt-3 flex flex-row items-center justify-center gap-2 rounded-lg bg-white px-2 py-2 text-center text-blue-500 sm:mb-9">
+                    {" "}
+                    <HiArrowDownTray /> Upload Your CV{" "}
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </main>
       <Footer />
+          
     </>
   )
 }
