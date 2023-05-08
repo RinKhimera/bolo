@@ -1,4 +1,5 @@
 import Input from "@/components/Input"
+import logo from "@/public/assets/bolo.png"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
@@ -26,7 +27,9 @@ const SignUp = () => {
             className="relative mx-auto w-full max-w-lg rounded-lg p-5 lg:max-w-md"
           >
             <div className="flex justify-center">
-              <Image src="/assets/bolo.png" width={75} height={75} alt={""} />
+              <Link href="/">
+                <Image src={logo} width={75} height={75} alt={""} />
+              </Link>
             </div>
             <div className="grid gap-y-4">
               <div>
