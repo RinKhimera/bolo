@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <div>
       <Head>
-        <title>Your Team | Bolo</title>
+        <title>Team | Bolo</title>
         <meta name="description" content="Bolo - Find your dream job" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -34,11 +34,11 @@ const Contact = () => {
               className="
                         pb-5
                         text-center
-                        text-lg
+                        text-3xl
+                        text-slate-700
                         font-bold
-                        sm:text-3xl
-                        md:text-5xl 
-                        lg:text-6xl
+                        sm:text-4xl
+                        lg:text-6xl 
                     "
             >
               Notre Equipe
@@ -48,151 +48,55 @@ const Contact = () => {
               consectetur adipisicing elit.
             </div>
           </div>
-          <div
-            className="
-                    mx-auto
-                    flex
-                    w-1/2
-                    gap-3
-                "
-          >
-            <div
-              className="
-                    max-w-[400px]
-                    flex-1
-                    rounded-t-[70px]
-                    rounded-br-3xl
-                    before:block
-                    before:h-[60px] 
-                    before:w-[10px]
-                    before:bg-purple-500
-                "
-            >
-              <img
-                src="/assets/person6.jpg"
-                className="
-                        mx-auto
-                        h-[150px]
-                        w-[200px]
-                        rounded-bl-[50px]
-                        rounded-tl-[100px]
-                        rounded-tr-2xl
-                        sm:h-[200px]
-                        sm:w-[250px]
-                       
-                    "
-              />
-            </div>
-            <div
-              className="
-                    invisible
-                    max-w-[400px]
-                    flex-1
-                    after:block
-                    after:h-[60px]
-                    after:w-[10px] 
-                    after:rounded-b-full
-                    after:rounded-t-full
-                    after:bg-blue-500
-                    md:visible
-                "
-            >
-              <img
-                src="/assets/person7.jpg"
-                className="
-                        mx-auto
-                        h-[150px]
-                        w-[150px]
-                        rounded-br-[100px]
-                        rounded-tl-[75px]
-                        sm:h-[200px]
-                        sm:w-[200px]
-                    "
-              />
-            </div>
+          <div className=" flex justify-center gap-4 flex-wrap">
+           <div className="bg-[url('/assets/person6.jpg')] w-[200px] h-[200px] bg-cover bg-center bg-no-repeat rounded-tl-[100px] rounded-br-[50px] border-r-blue-300 border-8"></div>
+           <div className="bg-[url('/assets/person7.jpg')] w-[200px] h-[200px] bg-cover bg-center bg-no-repeat rounded-br-[50px] rounded-tr-[100px] border-r-purple-300 border-8"></div>
+           <div className="bg-[url('/assets/person8.jpg')] w-[200px] h-[200px] bg-cover bg-center bg-no-repeat rounded-tl-[50px] rounded-br-[50px] border-l-blue-300 border-8"></div>
+           <div className="bg-[url('/assets/person9.jpg')] w-[200px] h-[200px] bg-cover bg-center bg-no-repeat rounded-tr-[100px] rounded-br-[50px] rounded-bl-[50px] border-l-purple-300 border-8"></div>
           </div>
-          {/* carre blue*/}
-          <div
-            className="
-                        mt-10  
-                          flex
-                          flex-row
-                          bg-blue-500
-                          py-10
-                    "
-          >
-            {/*=================================== partie de gauche ===============================================*/}
-            <div className="ml-5 mt-5 flex-1 space-y-5 sm:justify-center">
-              <div className="text-4xl font-extrabold">Professionnel</div>
-              <div
-                className="
-                        text-lg
-                        font-bold
-                        md:text-2xl
-                        lg:text-4xl
-
-                    "
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      
+          <div className="bg-blue-100 flex justify-center flex-col lg:flex-row mt-10">
+              <div className="flex-1 p-8 flex flex-col gap-8">
+                <span className="font-bold text-4xl text-slate-700">Professionnal</span>
+                <div className="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium inventore, laborum assumenda debitis dolores dignissimos dolore! Pariatur vitae eligendi quas, molestias eius molestiae, harum quam obcaecati aut, quod tenetur?
+                </div>
+                <span className="font-bold text-2xl text-center text-slate-700">commitment</span>
+                <div className="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium inventore, laborum assumenda debitis dolores dignissimos dolore! Pariatur vitae eligendi quas, molestias eius molestiae, harum quam obcaecati aut, quod tenetur?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium inventore, laborum assumenda debitis dolores dignissimos dolore! Pariatur vitae eligendi quas, molestias eius molestiae, harum quam obcaecati aut, quod tenetur?
+                </div>
+              <div className="flex justify-center mt-10">
+                <button className="bg-black p-2 text-white rounded-xl hover:bg-gray-800 w-1/3 active:bg-gray-600">MORE</button>
               </div>
-              <div className="hidden sm:visible ">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam, minus autem ducimus vitae est numquam, nemo enim eum
-                molestiae maxime possimus. Doloribus modi, aspernatur pariatur
-                delectus dicta soluta ut vero!
               </div>
-              <div>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quisquam, minus autem ducimus vitae est numquam, nemo enim eum
-                molestiae maxime possimus. Doloribus modi, aspernatur pariatur
-                delectus dicta soluta ut vero!
+              <div className="flex-1 flex flex-wrap justify-center gap-4 py-4">
+                <div className="
+                  w-[200px] h-[200px] 
+                  bg-[url(/assets/person10.jpg)]
+                  bg-cover bg-center bg-no-repeat
+                "></div>             
+                <div className="
+                  w-[200px] h-[200px] 
+                  bg-[url(/assets/person7.jpg)]
+                  bg-cover bg-center bg-no-repeat
+                "></div>             
+                <div className="
+                  w-[200px] h-[200px] 
+                  bg-[url(/assets/person9.jpg)]
+                  bg-cover bg-center bg-no-repeat
+                "></div>             
+                <div className="
+                  w-[200px] h-[200px] 
+                  bg-[url(/assets/person8.jpg)]
+                  bg-cover bg-center bg-no-repeat
+                "></div>             
+                <div className="
+                  w-[200px] h-[200px] 
+                  bg-[url(/assets/person6.jpg)]
+                  bg-cover bg-center bg-no-repeat
+                "></div>             
               </div>
-              <button
-                className="
-                            tr-1
-                            w-[100px]
-                            rounded-2xl
-                            bg-black
-                           p-3
-                            text-white
-                            hover:bg-gray-800
-                            active:bg-gray-600
-                        "
-              >
-                More
-              </button>
-            </div>
-
-            {/*===================================partie de droite===============================================*/}
-            <div className="flex flex-1">
-              <div
-                className="
-                      hidden   gap-5 md:flex
-                    "
-              >
-                <div
-                  className="
-                            h-[200px]
-                            w-[200px]
-                            rounded-full
-                            bg-[url('/assets/person10.jpg')]
-                            bg-cover
-                            bg-no-repeat
-                        "
-                ></div>
-
-                <div
-                  className="
-                            h-[200px]
-                            w-[200px]
-                            rounded-full
-                            bg-[url('/assets/person9.jpg')]
-                            bg-cover
-                            bg-no-repeat
-                        "
-                ></div>
-              </div>
-            </div>
           </div>
         </div>
       </main>
