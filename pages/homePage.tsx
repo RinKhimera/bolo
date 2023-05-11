@@ -1,10 +1,8 @@
 import Head from "next/head"
-import * as React from "react"
-// import { Person1 } from '@/public/assets/person1.png';
-// import { Person6 } from '@/public/assets/person6.png';
-// import { Person11 } from '@/public/assets/person11.png';
-// import { Person2 } from '@/public/assets/person2.png';
-// import { Person12 } from '@/public/assets/person12.png';
+import React, { Suspense } from "react";
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import Cube from "@/components/cube"
 import {
   FcAdvertising,
   FcBriefcase,
@@ -42,11 +40,23 @@ export default function HomePage() {
       <NavBar />
       <main className="bg-slate-50">
         <div>
-          <div className="text-center">
-            <h3 className="py-12 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl lg:text-6xl">
-              One Platform <br />
-              Many <span className="text-blue-400"> Solutions </span>
-            </h3>
+          <div className="grid grid-cols-2 max-w-[1000px] mx-auto">
+            <div className="text-center m-auto">
+              <h3 className="py-12 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl lg:text-6xl">
+                One Platform <br />
+                Many <span className="text-blue-400"> Solutions </span>
+              </h3>
+            </div>
+            <div className="">
+              <Canvas camera={{ position: [5, 5, 5], fov: 20 }}>
+                <Suspense fallback={null}>
+                  <ambientLight intensity={0.5} />
+                  <directionalLight position={[3, 2, 1]} />
+                  <Cube />
+                  <OrbitControls enableZoom={false} autoRotate />
+                </Suspense>
+              </Canvas>
+            </div>
           </div>
           <div className="py-16">
             <div className="mx-auto max-w-7xl px-2 md:px-2">

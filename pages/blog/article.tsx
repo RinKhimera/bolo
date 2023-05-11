@@ -17,7 +17,7 @@ const Article = () => {
       <NavBar />
       <main className="mx-10 my-20">
         <div className="mx-auto flex w-full max-w-5xl flex-col gap-5 ">
-          <h1 className="text-5xl font-bold">
+          <h1 className="sm:text-5xl font-bold text-2xl">
             How collaboration makes us{" "}
             <span className="italic text-blue-400">better designers</span>
           </h1>
