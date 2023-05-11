@@ -18,11 +18,11 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="mx-auto my-20 max-w-7xl px-5">
-        <div className="grid gap-5 rounded-2xl bg-slate-200 pt-20">
-          <h1 className="text-center text-5xl font-semibold">
+      <main className="mx-auto mb-20  px-5 ">
+        <div className=" relative grid gap-5 rounded-2xl bg-slate-50">
+          <h3 className="text-center text-5xl text-gray-700 font-bold tracking-tight py-12">
             We&apos;re changing the whole game
-          </h1>
+          </h3>
           <div className="flex items-center justify-center gap-5">
             <a
               href="#"
@@ -49,7 +49,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="my-14 flex flex-col gap-5 px-5 md:flex-row md:gap-10 md:px-10">
+        <div className="mb-20 my-14 flex flex-col gap-5 px-5 md:flex-row md:gap-10 md:px-10">
           <div className="flex basis-1/2 flex-col justify-between gap-10">
             <div>
               <h1 className="text-2xl font-bold text-green-400">OUR STORY</h1>
@@ -129,7 +129,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full max-w-sm basis-1/2 justify-center rounded-3xl bg-slate-200">
+          <div className="relative left-20 flex w-full max-w-sm basis-1/2 justify-center rounded-3xl bg-slate-200">
             <Image src={Person1} alt={""} height={500} width={500} />
           </div>
         </div>
@@ -157,7 +157,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-full max-w-sm basis-1/2 justify-center rounded-3xl bg-slate-200">
+          <div className="relative right-20 flex w-full max-w-sm basis-1/2 justify-center rounded-3xl bg-slate-200">
             <Image src={Person2} alt={""} height={170} width={170} />
           </div>
         </div>

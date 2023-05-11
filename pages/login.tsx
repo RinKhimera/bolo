@@ -8,6 +8,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { CiCircleChevLeft, CiCircleChevRight } from "react-icons/ci"
+import {
+  HiOutlineArrowLongLeft,
+} from "react-icons/hi2"
 
 const SignIn = () => {
   const [email, setEmail] = useState("")
@@ -22,7 +25,11 @@ const SignIn = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="min-h-screen lg:flex lg:flex-row">
-        <div className="flex min-h-screen flex-col justify-center lg:w-auto lg:basis-1/2">
+        <div className="lg:basis-1/2 flex min-h-screen flex-col justify-center lg:w-auto">
+          <Link href="/homePage">
+            <HiOutlineArrowLongLeft className=" relative bottom-1 left-4 text-3xl text-rose-500" />
+            <p className="relative bottom-8 left-12 text-1xl text-rose-500"> Back to the Home page </p>
+          </Link>
           <form
             action="#"
             method="POST"
@@ -116,7 +123,7 @@ const SignIn = () => {
           </form>
         </div>
         <div
-          className="hidden bg-cover lg:block lg:basis-1/2"
+          className="lg:basis-1/2 hidden bg-cover lg:block"
           style={{
             backgroundImage: `url(${bgImage.src})`,
           }}
@@ -146,7 +153,7 @@ const SignIn = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default SignIn

@@ -138,7 +138,7 @@ const NewNavBar = () => {
               </div>
             </div>
           )}
-          <div className="hidden font-semibold md:flex md:space-x-6">
+          <div className="hidden font-semibold  md:flex md:space-x-12">
             <Link href="/homePage">Home</Link>
             <Link href="/about">About</Link>
             <Link href="/findJob">Find job</Link>

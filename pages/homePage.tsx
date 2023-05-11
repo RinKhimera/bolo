@@ -1,5 +1,10 @@
 import Head from "next/head"
 import * as React from "react"
+// import { Person1 } from '@/public/assets/person1.png';
+// import { Person6 } from '@/public/assets/person6.png';
+// import { Person11 } from '@/public/assets/person11.png';
+// import { Person2 } from '@/public/assets/person2.png';
+// import { Person12 } from '@/public/assets/person12.png';
 import {
   FcAdvertising,
   FcBriefcase,
@@ -23,6 +28,7 @@ import {
 } from "react-icons/hi2"
 import Footer from "../components/Footer"
 import NavBar from "../components/Navbar"
+
 
 export default function HomePage() {
   return (
@@ -162,7 +168,10 @@ export default function HomePage() {
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
               <div className="w-full duration-200 hover:scale-95">
                 <div className="max-h-52 w-full overflow-hidden rounded-t-xl">
-                  <img src="/assets/person1.png" alt="ui" className="w-full" />
+                  <img 
+                  src="/assets/person1.png" 
+                  alt="ui" 
+                  className="w-full"/>
                 </div>
                 <div className="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
                   <div className="">
@@ -326,7 +335,6 @@ export default function HomePage() {
         </div>
       </main>
       <Footer />
-          
     </>
   )
 }
