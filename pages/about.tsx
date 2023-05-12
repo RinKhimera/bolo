@@ -20,10 +20,10 @@ const About = () => {
       <NavBar />
       <main className="mx-auto mb-20  px-5 ">
         <div className=" relative grid gap-5 rounded-2xl bg-slate-50">
-          <h3 className="text-center text-5xl text-gray-700 font-bold tracking-tight py-12">
+          <h3 className="text-center text-4xl text-gray-700 font-bold tracking-tight py-12 sm:text-5xl">
             We&apos;re changing the whole game
           </h3>
-          <div className="flex items-center justify-center gap-5">
+          <div className="flex flex-wrap items-center justify-center gap-5">
             <a
               href="#"
               className="w-36 rounded-full bg-black p-3 px-6
@@ -52,14 +52,14 @@ const About = () => {
         <div className="mb-20 my-14 flex flex-col gap-5 px-5 md:flex-row md:gap-10 md:px-10">
           <div className="flex basis-1/2 flex-col justify-between gap-10">
             <div>
-              <h1 className="text-2xl font-bold text-green-400">OUR STORY</h1>
+              <h1 className="text-3xl sm:text-4xl font-bold text-green-400">OUR STORY</h1>
               <h2 className="text-2xl font-bold">
                 We&apos;re building the economic infrastructure for the
                 internet. Businesses of every size
               </h2>
             </div>
             <div className="flex items-center gap-5">
-              <div>
+              <div className="min-w-[50px]">
                 <Image src={Icon} alt={""} height={150} width={150} />
               </div>
               <div className="text-lg text-zinc-600">
@@ -107,7 +107,7 @@ const About = () => {
         </div>
         <div className="flex flex-col-reverse items-center gap-5 px-5 md:flex-row md:gap-14 md:px-10">
           <div className="flex basis-1/2 flex-col items-center justify-evenly gap-5 md:items-end">
-            <div className="text-5xl font-bold">Our Mission</div>
+            <div className="text-3xl sm:text-4xl font-bold">Our Mission</div>
             <div className="text-center text-sm leading-relaxed text-zinc-600 md:text-end">
               We&apos;re building economic infrastructure for the internet
               Businesses of every size, be it new startups or public compagnies,
@@ -116,15 +116,15 @@ const About = () => {
             </div>
             <div className="flex gap-2 md:gap-10">
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">94%</div>
+                <div className="text-2xl font-bold md:text-4xl">94%</div>
                 <div className="text-center text-xs">CLIENT RETENTION</div>
               </div>
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">70M+</div>
+                <div className="text-2xl font-bold md:text-4xl">70M+</div>
                 <div className="text-center text-xs">EMAIL PER MONTH</div>
               </div>
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">10K+</div>
+                <div className="text-2xl font-bold md:text-4xl">10K+</div>
                 <div className="text-center text-xs">MONTHLY CAMPAIGNS</div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const About = () => {
         </div>
         <div className="my-14 flex flex-col-reverse items-center gap-5 px-5 md:flex-row-reverse md:gap-14 md:px-10">
           <div className="flex basis-1/2 flex-col items-center justify-evenly gap-5 md:items-start">
-            <div className="text-5xl font-bold">Our Vision</div>
+            <div className="text-3xl sm:text-4xl font-bold">Our Vision</div>
             <div className="text-center text-sm leading-relaxed text-zinc-500 md:text-start">
               We&apos;re building economic infrastructure for the internet
               Businesses of every size, be it new startups or public compagnies,
@@ -144,15 +144,15 @@ const About = () => {
             </div>
             <div className="flex gap-2 md:gap-10">
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">94%</div>
+                <div className="text-2xl font-bold md:text-4xl">94%</div>
                 <div className="text-center text-xs">CLIENT RETENTION</div>
               </div>
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">70M+</div>
+                <div className="text-2xl font-bold md:text-4xl">70M+</div>
                 <div className="text-center text-xs">EMAIL PER MONTH</div>
               </div>
               <div className="flex flex-col items-center">
-                <div className="text-3xl font-bold md:text-4xl">10K+</div>
+                <div className="text-2xl font-bold md:text-4xl">10K+</div>
                 <div className="text-center text-xs">MONTHLY CAMPAIGNS</div>
               </div>
             </div>

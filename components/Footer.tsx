@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col-reverse gap-4 lg:flex lg:flex-row lg:justify-between">
           <div className="grid grid-cols-2 justify-items-center gap-5 sm:grid-cols-3">
             <div className="flex flex-col gap-2 font-semibold">
-              <h1 className="mb-5 text-2xl font-bold text-blue-600">
+              <h1 className="mb-5 text-xl sm:text-2xl font-bold text-blue-600">
                 Navigation
               </h1>
               <span>
@@ -49,7 +49,7 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex flex-col gap-2 font-semibold">
-              <h1 className="mb-5 text-2xl font-bold text-blue-600">Company</h1>
+              <h1 className="mb-5 text-xl sm:text-2xl font-bold text-blue-600">Company</h1>
               <span>
                 <Link
                   href="/team"
@@ -84,7 +84,7 @@ const Footer = () => {
               </span>
             </div>
             <div className="flex flex-col gap-2 font-semibold">
-              <h1 className="mb-5 text-2xl font-bold text-blue-600">
+              <h1 className="mb-5 text-xl sm:text-2xl font-bold text-blue-600">
                 Resources
               </h1>
               <span>

@@ -313,7 +313,7 @@ export default function HomePage() {
               </button>
             </div>
           </div>
-          s
+
         </div>
         <div className="py-10">
           <div className="m-8 pb-10">
@@ -327,7 +327,7 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="items-center justify-center text-left">
-                  <h1 className="items-center justify-center text-left text-5xl font-semibold text-white sm:mt-[50px] md:mt-[100px]">
+                  <h1 className="items-center justify-center text-left text-3xl font-semibold text-white sm:mt-[50px] md:mt-[100px] sm:text-5xl">
                     Get Matched The Most Valuable Jobs, Just Drop Your CV at
                     Staffing Solutions
                   </h1>
@@ -335,7 +335,7 @@ export default function HomePage() {
                     In the subject line of email, write your name, the
                     description of the position you want to apply
                   </p>
-                  <button className="mt-3 flex flex-row items-center justify-center gap-2 rounded-lg bg-white px-2 py-2 text-center text-blue-500 sm:mb-9">
+                  <button className="my-3 flex flex-row items-center justify-center gap-2 rounded-lg bg-white px-2 py-2 text-center text-blue-500 sm:mb-9 text-xs sm:text-lg">
                     {" "}
                     <HiArrowDownTray /> Upload Your CV{" "}
                   </button>
