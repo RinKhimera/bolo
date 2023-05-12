@@ -40,20 +40,21 @@ export default function HomePage() {
       <NavBar />
       <main className="bg-slate-50">
         <div>
-          <div className="grid grid-cols-2 max-w-[1000px] mx-auto">
+          {/* <div className="grid grid-cols-2 max-w-[1000px] mx-auto"> */}
+          <div className="grid grid-cols-1 md:grid-cols-2 max-w-[900px] mx-auto">
             <div className="text-center m-auto">
               <h3 className="py-12 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl lg:text-6xl">
                 One Platform <br />
                 Many <span className="text-blue-400"> Solutions </span>
               </h3>
             </div>
-            <div className="">
+            <div className="mt-[-30px] md:mt-0">
               <Canvas camera={{ position: [5, 5, 5], fov: 20 }}>
                 <Suspense fallback={null}>
                   <ambientLight intensity={0.5} />
                   <directionalLight position={[3, 2, 1]} />
                   <Cube />
-                  <OrbitControls enableZoom={false} autoRotate />
+                  <OrbitControls enableZoom={true} autoRotate />
                 </Suspense>
               </Canvas>
             </div>
