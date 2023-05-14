@@ -79,7 +79,7 @@ export default function HomePage() {
                   <div className="flex-wrap">
                     <FcBriefcase className="text-6xl text-blue-500 group-hover:text-white" />
                     <h4 className="mb-1 mt-3 text-left text-[17px] font-semibold text-slate-600 duration-200 group-hover:text-white">
-                      Buisiness & Consulting
+                      Business & Consulting
                     </h4>
                   </div>
                   <p className="mt-5 flex gap-24 text-sm font-medium text-slate-500 duration-200 group-hover:text-blue-200">
